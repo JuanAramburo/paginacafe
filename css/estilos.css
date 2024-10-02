@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#dimensionp{
+    width: 900px;
+    height: 1000px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body{
+    background-color: rgb(152,119,99);
+}
+
+#cabecera{
+    background-color: rgb(39,27,22);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    align-items: center;
+    text-shadow: 1px 4px 4px black;
+    padding: 10%;
+    text-align: center;
+}
+
+#menu{
+    background-color: rgb(176,167,159);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-shadow: 1px 4px 4px black;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+#seccion{
+    color: white;
+    background-color: rgb(109,90,93);
+    float: left;
+    text-shadow: 1px 4px 4px black;
+    width: 64%;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    color: white;
+    text-shadow: 1px 4px 4px black;
+    text-align: justify;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    text-align: justify;
+}
+
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 4px 4px black;
+}
+
+.texto{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    color: white;
+    text-shadow: 1px 4px 4px black;
+    text-align: justify;
+}
+
+#aside1{
+    width: 35%;
+    height: 560px;
+    float: right;
+    background-color: rgb(167,155,156);
+}
+
+li{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 4px 4px black;
+    margin: 5px;
+}
+
+img{
+    width: 100px;
+    border-radius: 1px solid;
+    margin: 5px;
+}
+
+
+#pie{
+    height: 70px;
+    background-color: rgb(94, 59, 54);
+    padding: 10%;
+    align-items: center;
+    text-align: center;
+}
