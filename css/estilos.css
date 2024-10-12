@@ -7,7 +7,7 @@
     width: 900px;
     height: 1000px;
     display: flex;
-    min-height: 100vh;
+    max-width: 210vh;
     flex-direction: column;
 }
 
@@ -23,7 +23,7 @@ body{
     color: white;
     align-items: center;
     text-shadow: 1px 4px 4px black;
-    padding: 10%;
+    padding: 20px;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 5%;
+    padding: 10px;
 }
 
 a{
@@ -51,7 +51,8 @@ a:hover{
     background-color: rgb(109,90,93);
     float: left;
     text-shadow: 1px 4px 4px black;
-    width: 64%;
+    width: 600px;
+    height: 900px;
 }
 
 h2{
@@ -92,8 +93,8 @@ h4{
 }
 
 #aside1{
-    width: 35%;
-    height: 560px;
+    width: 300px;
+    height: 900px;
     float: right;
     background-color: rgb(167,155,156);
 }
@@ -115,9 +116,10 @@ img{
 
 
 #pie{
-    height: 70px;
+    height: 12px;
     background-color: rgb(94, 59, 54);
-    padding: 10%;
+    padding: 10px;
     align-items: center;
     text-align: center;
+    margin-top: auto;
 }
